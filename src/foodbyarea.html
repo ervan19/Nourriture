@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nourriture juga menyediakan berbagai macam makanan dari berbagai negara atau daerah, dari asia, eropa, america bahkan timur tengah.">
+    <title>Food By Area</title>
+</head>
+
+<body class="bg-gradient-to-r from-secondary to-tersiary text-text">
+    <header class=" sticky left-0 top-0 w-full bg-secondary/20 backdrop-blur-xl z-10">
+        <nav class="w-full px-6 md:px-20 py-8 flex items-center justify-between  relative">
+            <div class="logo">
+                <a href="index.html" class="uppercase font-oswald tracking-wide font-bold text-xl text-primary">nourriture</a>
+            </div>
+            <ul class="flex items-center justify-center gap-4 md:gap-12 flex-row">
+                <li><a href="/index.html" class="text-base hover:text-primary font-semibold transition-all delay-75">Home</a></li>
+                <li><a href="/index.html#areas" class="text-base hover:text-primary font-semibold transition-all delay-75">Areas</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="w-full min-h-screen pt-12 p-4 md:p-6 xl:p-20 ">
+            <div class="container mx-auto food-container">
+                <div class="text-center">
+                    <h1 class="text-heading text-4xl font-medium tracking-wider leading-8 font-oswald"></h1>
+               </div>
+                <div class="list-food-area categories-container grid md:grid-cols-4 w-full h-full grid-cols-2 sm:grid-cols-3 gap-3 mt-6 md:mt-16 2xl:grid-cols-5"></div>
+            </div>
+        </div>
+        <div class="detail-container hidden fixed top-0 left-0 bottom-0 w-full min-h-screen bg-secondary/70 flex justify-center items-center p-12 z-20">
+        </div>
+    </main>
+    <footer class="w-full px-6 pb-16 md:px-20 py-8 bg-secondary/20">
+        <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-8 ">
+                        <img src="./assets/logo.svg" alt="">
+                    </div>
+                    <h1 class="uppercase font-oswald tracking-wide font-bold text-2xl text-primary mb-4">NOURRITURE</h1>
+                </div>
+              
+                <a href="#" class="text-lg hover:text-primary transition-all duration-200 ease-in">About Us</a>
+                <div class="flex items-center gap-4 mt-6 ">
+                    <a href="https://www.instagram.com/ervanmuhammad_/" target="blank" class=" w-6 h-6 md:w-5 md:h-5 cursor-pointer text-text group ">
+                        <img class="w-full group-hover:scale-125 transition-all delay-75 " src="./assets/instagram.svg"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ervan-muhammad-adrian-9173a6213/" target="blank" class="  w-6 h-6 md:w-5 md:h-5 cursor-pointer text-text group ">
+                    <img class="w-full group-hover:scale-125 transition-all delay-75" src="./assets/linkedin.svg"/>
+                    </a>
+                    <a href="" class=" w-6 h-6 md:w-5 md:h-5 cursor-pointer text-text group ">
+                    <img class="w-full group-hover:scale-125 transition-all delay-75" src="./assets/facebook.svg"/>
+                    </a>
+                </div>
+            </div>
+             <div class="flex flex-col gap-2 text-lg">
+                <h1 class="text-xl font-medium mb-6">Food</h1>
+                <a href="#" class="hover:text-primary transition-all duration-200 ease-in">By Categories</a>
+                <a href="#" class="hover:text-primary transition-all duration-200 ease-in">By Areas</a>
+             </div>
+        </div>
+    </footer>
+</body>
+</html>
